@@ -128,7 +128,7 @@ namespace GasNetwork
             {
                 foreach (var neighbour in GenAdjFast.AdjacentCellsCardinal(Position))
                 {
-                    if (!neighbour.Impassable(Map) && neighbour.GetRoom(Map) == room)
+                    if (!neighbour.Impassable(Map) && neighbour.InBounds(Map) && neighbour.GetRoom(Map) == room)
                     {
                         var amountDissipated = GenGas.AddGas(neighbour, Map, def, GasProps.staticDissipation, false);
                         Density -= amountDissipated / GasProps.maxDensity;
@@ -160,7 +160,7 @@ namespace GasNetwork
 
                 // north
                 var neighbour = Position + IntVec3.North;
-                if (!neighbour.Impassable(Map) && neighbour.GetRoom(Map) == room)
+                if (!neighbour.Impassable(Map) && neighbour.InBounds(Map) && neighbour.GetRoom(Map) == room)
                 {
                     var amountDissipated = GenGas.AddGas(
                         neighbour, Map, def, windNorth, false, true);
@@ -169,7 +169,7 @@ namespace GasNetwork
 
                 // east
                 neighbour = Position + IntVec3.East;
-                if (!neighbour.Impassable(Map) && neighbour.GetRoom(Map) == room)
+                if (!neighbour.Impassable(Map) && neighbour.InBounds(Map) && neighbour.GetRoom(Map) == room)
                 {
                     var amountDissipated = GenGas.AddGas(
                         neighbour, Map, def, windEast, false, true);
@@ -178,7 +178,7 @@ namespace GasNetwork
 
                 // south
                 neighbour = Position + IntVec3.South;
-                if (!neighbour.Impassable(Map) && neighbour.GetRoom(Map) == room)
+                if (!neighbour.Impassable(Map) && neighbour.InBounds(Map) && neighbour.GetRoom(Map) == room)
                 {
                     var amountDissipated = GenGas.AddGas(
                         neighbour, Map, def, windSouth, false, true);
@@ -187,7 +187,7 @@ namespace GasNetwork
 
                 // west
                 neighbour = Position + IntVec3.West;
-                if (!neighbour.Impassable(Map) && neighbour.GetRoom(Map) == room)
+                if (!neighbour.Impassable(Map) && neighbour.InBounds(Map) && neighbour.GetRoom(Map) == room)
                 {
                     var amountDissipated = GenGas.AddGas(
                         neighbour, Map, def, windWest, false, true);

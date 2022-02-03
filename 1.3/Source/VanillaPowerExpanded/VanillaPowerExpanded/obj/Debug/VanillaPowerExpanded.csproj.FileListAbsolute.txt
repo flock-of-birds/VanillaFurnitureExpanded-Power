@@ -11,3 +11,7 @@ E:\Games\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Power\1.2\Sourc
 E:\Games\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Power\1.2\Source\VanillaPowerExpanded\VanillaPowerExpanded\obj\Debug\VanillaPowerExpanded.csproj.CoreCompileInputs.cache
 E:\Games\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Power\1.2\Source\VanillaPowerExpanded\VanillaPowerExpanded\obj\Debug\VanillaPowerExpanded.dll
 E:\Games\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Power\1.2\Source\VanillaPowerExpanded\VanillaPowerExpanded\obj\Debug\VanillaPowerExpanded.csproj.CopyComplete
+D:\Ciaran\Games\Rimworld\Source\VFE-Power\1.3\Assemblies\VanillaPowerExpanded.dll
+D:\Ciaran\Games\Rimworld\Source\VFE-Power\1.3\Source\VanillaPowerExpanded\VanillaPowerExpanded\obj\Debug\VanillaPowerExpanded.csproj.AssemblyReference.cache
+D:\Ciaran\Games\Rimworld\Source\VFE-Power\1.3\Source\VanillaPowerExpanded\VanillaPowerExpanded\obj\Debug\VanillaPowerExpanded.csproj.CoreCompileInputs.cache
+D:\Ciaran\Games\Rimworld\Source\VFE-Power\1.3\Source\VanillaPowerExpanded\VanillaPowerExpanded\obj\Debug\VanillaPowerExpanded.dll
